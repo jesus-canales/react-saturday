@@ -9,8 +9,6 @@ function App() {
   return (
     <>
       <Encabezado />
-      <br />
-      <br />
       <Pie />
     </>
   );

@@ -3,6 +3,7 @@ import './App.css'
 import Menu from './Menu'
 import Cabecera from './Cabecera'
 import Cuerpo from './Cuerpo'
+import Pie from './Pie'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Menu />
       <Cabecera />
       <Cuerpo />
+      <Pie />
     </>
   );
 }

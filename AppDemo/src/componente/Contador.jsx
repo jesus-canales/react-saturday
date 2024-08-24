@@ -1,10 +1,15 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
 function Contador(){
+    const [ contar, setContar ] = useState(0);
+    const hacerClic = () =>{
+        setContar(contar + 1);
+    }
+
     return(
         <>
-        <p>Haz realizado 1 veces clic en el botón </p>
-        <button>Contar</button>
+        <p>Haz realizado {contar} veces clic en el botón </p>
+        <button onClick={hacerClic} >Contar</button>
         </>
     );
 }

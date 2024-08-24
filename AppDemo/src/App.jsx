@@ -1,17 +1,12 @@
 import { Fragment } from "react";
-import Mensaje from "./componente/Mensaje";
-import Contador from './componente/Contador';
-import MiCard from './componente/Card';
-import Lista from './componente/Lista'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Menu from "./componente/Menu";
 
 function App() {
   return (
     <>
-      <Mensaje />
-      <Contador />
-      <MiCard />
-      <Lista />
+      <Menu />
     </>
   );
 }

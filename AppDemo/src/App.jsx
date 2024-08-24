@@ -1,18 +1,12 @@
 import { Fragment } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Menu from "./componente/Menu";
-import DarkVariantExample from "./componente/Carrusel";
-import GroupExample from "./componente/Cards";
+import Formulario from "./componente/Formulario";
+
 
 function App() {
   return (
     <>
-      <Menu />
-      <br />
-      <DarkVariantExample />
-      <br />
-      <br />
-      <GroupExample />
+      <Formulario />
     </>
   );
 }

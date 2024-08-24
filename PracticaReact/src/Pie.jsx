@@ -20,4 +20,4 @@ function Pie(){
 }
 
 // exportamos el componente principal
-export default Pie;
+export default Pie; 
